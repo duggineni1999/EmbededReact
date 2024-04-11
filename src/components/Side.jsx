@@ -240,7 +240,7 @@ const Side = () => {
                                 open={openKey === item.key}
                             >
                                 {OperationSubItems.map((subItem, subIndex) => (
-                                    <Menu.Item key={`${index}-${subIndex}`} style={{ fontSize: '.8rem', paddingLeft: '10px', important: 'true'  }} icon={<img src={subicon} alt="" />}>
+                                    <Menu.Item key={`${index}-${subIndex}`} className='ps-0' icon={<img src={subicon} alt="" />}>
                                         <Link to={subItem.Sub_url}>{subItem.Sub_Header}</Link>
                                     </Menu.Item>
                                 ))}
