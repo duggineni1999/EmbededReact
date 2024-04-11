@@ -60,7 +60,7 @@ letter-spacing: 0em;
 text-align: left;
 }
 
-            :where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-light .ant-menu-submenu-selected >.ant-menu-submenu-title, :where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-light>.ant-menu .ant-menu-submenu-selected >.ant-menu-submenu-title {
+  :where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-light .ant-menu-submenu-selected >.ant-menu-submenu-title, :where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-light>.ant-menu .ant-menu-submenu-selected >.ant-menu-submenu-title {
   color: #f8f9fa !important ;
   background-color: #06b81e !important;
 }
