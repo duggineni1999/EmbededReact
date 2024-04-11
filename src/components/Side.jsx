@@ -17,6 +17,7 @@ import prorep from "../assets/menuicons/ico_prorep.svg"
 import tracepre from "../assets/menuicons/ico_tracerep.svg"
 import userman from "../assets/menuicons/ico_userman.svg"
 import subicon from "../assets/menuicons/subicon.svg"
+import '../App.css';
 
 
 
