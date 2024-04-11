@@ -6,6 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Dashboard from './Dashboard';
 import SideMenu from './SideMenu';
+import '../components/sidebar.css';
 function LoginComponent() {
   const [inactive, setInactive] = useState(false);
 

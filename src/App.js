@@ -1,6 +1,6 @@
 import "./App.css";
 import SideMenu, { menuItems } from "./components/SideMenu";
-
+import './components/sidebar.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Updated import
 import { useState } from "react";
 import LoginComponent from "./components/Login";
