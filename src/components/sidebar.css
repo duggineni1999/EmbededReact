@@ -59,3 +59,98 @@ line-height: 20px;
 letter-spacing: 0em;
 text-align: left;
 }
+
+            :where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-light .ant-menu-submenu-selected >.ant-menu-submenu-title, :where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-light>.ant-menu .ant-menu-submenu-selected >.ant-menu-submenu-title {
+  color: #f8f9fa !important ;
+  background-color: #06b81e !important;
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-light .ant-menu-item-selected, :where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-light>.ant-menu .ant-menu-item-selected {
+  background-color: #06b81e !important;
+  color: #ffffff !important;
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-light:not(.ant-menu-horizontal) .ant-menu-submenu-title:hover, :where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-light>.ant-menu:not(.ant-menu-horizontal) .ant-menu-submenu-title:hover {
+  background-color: #06b81e !important;
+  color:white !important;
+}
+
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-submenu-popup .ant-menu-vertical.ant-menu-sub:not([class*='-active']) {
+  overflow-x: hidden;
+  overflow-y: scroll !important;
+  border: .5px solid rgba(1, 163, 1, 0.479)  !important;
+  box-shadow: 4px 3px 3px 1px #c7e4c7ee !important;
+  max-height: 30vh !important;
+}
+.chartjs-render-monitor .chartjs-bar {
+  border-radius: 10px; /* Adjust the border radius as needed */
+}
+
+.welcome {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 20px;
+  text-align: left;
+}
+.name{
+  font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 20px;
+text-align: left;
+color:#00923F;
+}
+
+.login-decs{
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color:#4E4E4E;
+}
+.login label{
+  font-family: "Inter", sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 14.52px;
+text-align: left;
+}
+.login label span{
+  font-family: "Inter", sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 14.52px;
+text-align: left;
+color: red;
+}
+.border-top{
+  border-top: 1px solid black !important;
+}
+
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-light.ant-menu-inline .ant-menu-sub.ant-menu-inline, :where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-light>.ant-menu.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+  max-height: 30vh !important;
+  overflow-y: scroll;
+  background: transparent !important;
+  
+}
+.ant-menu-title-content{
+  font-size: 12px !important;
+  margin-left: 15px !important;
+}
+
+.ant-menu-item-icon{
+
+  font-size: 15px !important;
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-inline .ant-menu-item, :where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-vertical .ant-menu-item, :where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-inline .ant-menu-submenu-title, :where(.css-dev-only-do-not-override-1ae8k9u).ant-menu-vertical .ant-menu-submenu-title {
+  height: 33px !important;
+  line-height: 20px;
+  padding-inline: 10px !important;
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  margin-inline: 4px !important;
+  margin-block: 4px !important;
+  width: calc(100% - 10px);
+}
+
+   

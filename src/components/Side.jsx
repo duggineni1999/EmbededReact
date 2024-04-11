@@ -17,8 +17,7 @@ import prorep from "../assets/menuicons/ico_prorep.svg"
 import tracepre from "../assets/menuicons/ico_tracerep.svg"
 import userman from "../assets/menuicons/ico_userman.svg"
 import subicon from "../assets/menuicons/subicon.svg"
-import '../App.css';
-
+import '../components/sidebar.css';
 
 
 
@@ -241,7 +240,7 @@ const Side = () => {
                                 open={openKey === item.key}
                             >
                                 {OperationSubItems.map((subItem, subIndex) => (
-                                    <Menu.Item key={`${index}-${subIndex}`} style={{ fontSize: '.8rem', paddingLeft: '0px' }} icon={<img src={subicon} alt="" />}>
+                                    <Menu.Item key={`${index}-${subIndex}`} style={{ fontSize: '.8rem', padding: '0px' }} icon={<img src={subicon} alt="" />}>
                                         <Link to={subItem.Sub_url}>{subItem.Sub_Header}</Link>
                                     </Menu.Item>
                                 ))}
